@@ -1,0 +1,324 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(back3.jpg);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(85, 20, 146);
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    position: relative;
+    top: -4rem;
+}
+
+li:hover {
+    color: blue;
+    font-size: 2.6rem;
+}
+
+.heading {
+    font-size: 5rem;
+    margin-left: 7.8rem;
+    margin-right: 7.8rem;
+    color: rgb(236, 217, 106);
+}
+
+.list * {
+    margin-right: 3rem;
+    font-size: 2rem;
+    color: rgb(245, 70, 16);
+    //background-color: rgb(175, 121, 226);
+    //padding-left: 10p;
+    //padding-right: 10px;
+    /* margin-left: 50px; */
+}
+
+.navtag1 {
+    //padding-left: 10px;
+    //padding-right: 10px;
+}
+
+.containgithub {
+    display: flex;
+}
+
+.github {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin: 0rem;
+}
+
+.containinsta {
+    display: flex;
+}
+
+.insta {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin: 0rem;
+}
+
+.containgmail {
+    display: flex;
+}
+
+.gmail {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin: 0px;
+}
+
+.firstsection {
+    margin-top: 3rem;
+    display: flex;
+}
+
+.left {
+    width: 70rem;
+    /* height: 78px; */
+    color: white;
+}
+
+.right {
+    //border: 2px solid pink;
+    /* width: 50vw; */
+    //background-color: yellowgreen;
+}
+
+.text1 {
+    position: relative;
+    left: 19rem;
+    top: 7rem;
+    font-size: 4rem;
+}
+
+.colortext {
+    color: rgb(51, 119, 131);
+}
+
+.code {
+    width: 40vw;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    border-radius: 2%;
+}
+
+.secondsection {
+    color: rgb(241, 236, 236);
+    font-size: 4rem;
+    margin-top: 3rem;
+    padding-left: 16rem;
+}
+
+.thirdsection {
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.clang {
+    /* height: 60vh; */
+    background-color: white;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+    margin-right: 9rem;
+    margin-left: 12rem;
+    border: 2px solid black;
+    border-radius: 5%;
+    width: 35rem;
+}
+
+.clang:hover {
+    background-color: yellow;
+    color: red;
+    width: 50rem;
+    height: 30rem;
+
+    .cdes {
+        font-size: 3rem;
+    }
+}
+
+.chead {
+    font-size: 4rem;
+}
+
+.cdes {
+    font-size: 2.5rem;
+}
+
+.cmix {
+    display: flex;
+}
+
+.cimg {
+    width: 8rem;
+    height: 8rem;
+}
+
+.cpplang {
+    background-color: white;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+    margin-right: 9rem;
+    margin-left: 12rem;
+    border: 2px solid black;
+    border-radius: 5%;
+    width: 35rem;
+}
+
+.cpplang:hover {
+    background-color: yellow;
+    color: red;
+    width: 50rem;
+    height: 30rem;
+
+    .cppdes {
+        font-size: 3rem;
+    }
+}
+
+.cpphead {
+    font-size: 3.9rem;
+}
+
+.cppdes {
+    font-size: 2.5rem;
+}
+
+.cppmix {
+    display: flex;
+}
+
+.cppimg {
+    width: 8rem;
+    height: 8rem;
+}
+
+.topic {
+    color: rgb(211, 77, 15);
+    font-size: 2rem;
+}
+
+.dsa {
+    /* height: 60vh; */
+    background-color: white;
+    padding-top: 8rem;
+    padding-left: 5rem;
+    padding-right: 3rem;
+    padding-bottom: 10rem;
+    margin-right: 9rem;
+    margin-left: 15rem;
+    margin-top: 4rem;
+    border: 2px solid black;
+    border-radius: 5%;
+    width: 35rem;
+}
+
+.dsa:hover {
+    background-color: yellow;
+    color: red;
+    width: 50rem;
+    height: 20rem;
+
+    .dsades {
+        font-size: 3rem;
+    }
+}
+
+.dsahead {
+    font-size: 4rem;
+}
+
+.dsades {
+    font-size: 2.5rem;
+}
+
+.dsamix {
+    display: flex;
+}
+
+.dsaimg {
+    width: 6rem;
+    height: 6rem;
+}
+
+.fourthsection {
+    display: flex;
+    /* margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 30px; */
+}
+
+.gith {
+    background-color: white;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
+    margin-right: 9rem;
+    margin-left: 12rem;
+    margin-top: 4rem;
+    border: 2px solid black;
+    border-radius: 5%;
+    width: 35rem;
+}
+
+.gith:hover {
+    background-color: yellow;
+    color: red;
+    width: 50rem;
+    height: 30rem;
+
+    .cppdes {
+        font-size: 3rem;
+    }
+}
+
+.cssimg {
+    width: 10rem;
+    height: 7rem;
+}
+
+.listlast {
+    display: flex;
+    /* justify-content: center; */
+    background-color: rgb(64, 129, 185);
+    margin-top: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    list-style: none;
+}
+
+.endclass {
+    margin-left: 20rem;
+    font-size: 2rem;
+    color: rgb(245, 70, 16);
+}
+
+.endfrist {
+    margin-left: 0px;
+}
